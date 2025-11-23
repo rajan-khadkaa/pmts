@@ -1,0 +1,232 @@
+.empBorder{
+    margin-top: 30px!important;
+  }
+  
+  .empReg{
+    margin-top: 30px!important;
+  }
+
+  .title-box {
+    height: 80px; /* Adjust this value to increase or decrease the height */
+  }
+
+  .emsTitle {
+    margin-top: 30px;
+    align-items: center!important;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #0c8fa7;
+  }
+
+  .admin-profile {
+    display: flex;
+    align-items: center;
+    color: #0c8fa7;
+  }
+  
+  .admin-profile i {
+    font-size: 18px!important; /*size of the profile icon */
+    margin-right: 8px;
+    color: #0c8fa7;
+    /* font-size: 16px; */
+  }
+  
+  .admin-profile span {
+    font-size: 12px;
+    margin-right: 36px;
+  }
+
+  .APanel{
+    /* color: #0c8fa7; */
+    margin-top: 35px;
+    margin-left: 12px;
+    font-size: 18px;
+    color: #0c8fa7;
+    margin-bottom: 12px;
+  }
+  
+  /* .SidebarOpt{
+    color: black;
+  } */
+
+  .custom-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* border: #0c8fa7 2px solid; */
+    background-color: #eafafd;
+    height: 100%;
+    overflow-y: auto; /* Allow the sidebar to scroll if its contents exceed the viewport height */
+    z-index: 1000; /* Adjust the z-index to ensure the sidebar is on top */
+  }
+
+  /* Adjust the content area to push it away from the fixed sidebar */
+.col {
+  margin-left: 150px; /* Adjust this value to match the width of the sidebar */
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Ensure the content area is scrollable */
+.col {
+  overflow-y: auto;
+}
+
+  .SidebarOpt {
+    font-size: 12px; /* Adjust the font size as needed */
+    margin-bottom: 26px;
+    white-space: nowrap; /* Prevent text from wrapping to the next line */
+    overflow: hidden; /* Hide overflow text */
+    text-overflow: ellipsis; /* Add ellipsis if the text overflows */
+    max-width: 120px!important; /* Set a max-width to control the text length */
+    /* color: black; */
+    color: #0c8fa7;
+    /* margin-left: 5px!important; */
+    /* margin-right: 3px; */
+  }
+
+  .rightM {
+    /* margin-right: 12px; */
+    color: #0c8fa7;
+    font-weight: 550;
+    font-size: 15px;
+    margin-left: 3px;
+    margin-bottom: 26px;
+  }
+
+
+  .admin-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin-profile-image {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 3px solid #0c8fa7;
+  }
+
+  .admin-name{
+    font-size: 14px!important;
+  }
+  
+  .admin-name-dropdown {
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  
+  .admin-name-dropdown .admin-name:hover {
+    /* font-weight: bold; */
+    color: red;
+    font-size: 14px;
+  }
+  
+  .admin-name-dropdown .admin-email {
+    display: none;
+    position: absolute;
+    right: 0; /* Align to the right of the admin name */
+    top: 190%; /* Align below the admin name and adjust as needed */
+    z-index: 1;
+    white-space: nowrap; /* Prevent the email from wrapping to the next line */
+    text-align: right; /* Align the text to the right */
+    font-size: 14px;
+  }
+  
+  .admin-name-dropdown:hover .admin-email {
+    display: block;
+  }
+
+
+  
+
+  .active {
+    background-color: #d4d8d8!important;
+    border-radius: 5px;
+    width: 124px;
+    padding: 4px 12px;
+  }
+  
+
+  .nav-link {
+    transition: none; /* Disable transitions for nav links */
+  }
+  
+  
+
+  .logoutOptText {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+  }
+
+  .logoutOptIcon {
+    color: rgb(255, 255, 255);
+    margin-left: 28px!important;
+  }
+
+  .logoutBox {
+    background-color: rgb(241, 73, 73); /* Set the desired background color */
+    border-radius: 5px; /* Set the border radius for the box */
+    /* width: 144px; if width is too small then use below */
+    width: 176px;
+    padding: 2px 10px;
+    /* margin-top: 274px; if the current margin is too large then use below*/
+    margin-top: 360px;
+    align-items: center;
+    /* margin-top: auto; */
+  }
+
+  .logoutBox:hover {
+    background-color: rgb(176, 2, 2); /* Set the background color for hover state */
+  }
+
+  .nav-link.active::before {
+    content: "";
+    position: absolute;
+    width: 6px; /* Adjust the width of the highlight bar */
+    height: 100%; /* Cover the full height of the menu item */
+    background-color: white; /* Color of the highlight bar */
+    left: 0;
+    top: 0;
+    border-radius: 5px 0 0 5px; /* Rounded corners */
+    /* transition: width 0.01s;  */
+    transition: none; 
+  }
+
+  .iconSize {
+    margin-left: 14px;
+  }
+
+  .paddingHome{
+    margin-left: 80px;
+  }
+  
+
+  
+  
+  
+  
+
+
+  
+
+/* .react-confirm-alert-button-group {
+  justify-content: center!important; 
+  
+} */
+
+  /* custom-confirm-alert.css */
+
+  
+
+
+/*gap between buttons*/
+/* .react-confirm-alert-button-container button {
+  margin-right: 20px !important;
+  margin-top: 10px!important;
+} */
+
+

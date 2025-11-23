@@ -1,0 +1,140 @@
+.ub_container {
+    display: flex;
+    margin: 10px;
+    gap: 14px; /* Adds space between the sidebar and the content */
+    /* min-height: 473px;
+    max-height: 493px; */
+    /* min-height: 540px; 
+    max-height: 540px; */
+  }
+  
+  .ub_sidebar {
+    /* background-color: #F3FCFF;  */
+    /* background-color: #dff7ff; */
+    background-color: #f7fbff;
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 15px; 
+    padding: 20px;
+    min-width: 200px;
+    /* width: 610px!important; */
+    min-height: 618px; 
+    max-height: 618px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    display: flex; 
+    flex-direction: column; /* Ensure that children are arranged vertically */
+  }
+  
+  .ub_sidebar_menu {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ub_sidebar_item {
+    margin-bottom: 2px;
+  }
+  
+  .ub_sidebar_item a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(2, 150, 191); 
+    /* font-weight: bold; */
+    font-weight: 550;
+    display: block;
+    /* padding: 10px; */
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    /* transition: background-color 0.1s ease; */
+  }
+  
+  .ub_sidebar_item a:hover {
+    /* background-color:rgb(160, 228, 248); */
+    /* background-color: rgb(2, 132, 168);  */
+    background-color: rgb(219, 248, 255); 
+    /* color: #045b73 */
+    /* color: white; */
+    color: rgb(1, 108, 138);
+  }
+
+  /* Logout section */
+.ub_logout_section {
+  margin-top: auto; /* This pushes the logout button to the bottom */
+}
+
+.ub_logout_btn {
+  background-color: #c80d00; /* Tomato color for the button */
+  color: white;
+  border: none;
+  padding: 6px 24px;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+}
+
+.ub_logout_btn:hover {
+  background-color: #a90b00; /* Darker shade on hover */
+}
+
+/* Content styles */
+.ub_content {
+  flex-grow: 1;
+  padding: 20px;
+}
+  
+  .ub_content {
+    flex-grow: 1;
+    /* background-color:#F3FCFF; */
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 473px; 
+    max-height: 493px;
+  }
+  
+  ub_h3 {
+    font-family: "Arial", sans-serif;
+    color: #444;
+    margin-bottom: 20px;
+  }
+
+
+  /*user info*/
+  /* User profile section */
+.ub_user_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.ub_profile_image {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.ub_user_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.ub_user_name {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom:2px;
+}
+
+.ub_user_email {
+  font-size: 1em;
+  color: #666;
+}
+  

@@ -1,0 +1,77 @@
+.EmpBtn{
+    /* color: #0c8fa7; */
+    /* background-color: #0c8fa7; */
+    background-color: #cb0606;
+    border: none;
+}
+
+.DropDowncss{
+    /* margin-right: 2px!important; */
+    margin-bottom: 7px!important;
+    font-size: 12px;
+}
+
+.searchBar{
+    margin-top: 1px;
+    max-width: 180px;
+    font-size: 14px!important;
+}
+
+
+.paddingContent{
+  padding: 20px 20px 20px 200px;
+
+}
+
+.userTblHead th{
+  font-size: 14px;
+}
+
+.userTblHead td{
+  font-size: 14px;
+}
+
+/* scrollable table */
+.scrollable-table {
+    display: block;
+    max-height: 280px!important; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .scrollable-table thead {
+    display: table;
+    width: 100%; /* Make sure the table header is full width */
+    position: sticky;
+    top: 0; /* Stick to the top */
+    z-index: 1; /* Place it above the content */
+  }
+  
+  .scrollable-table tbody {
+    display: table;
+    width: 100%;
+  }
+
+  .noResultFound {
+    text-align: center;
+    
+  }
+  
+  .no-results {
+    color: red;
+    font-size: 13px;
+  }
+  
+  .no-results-icon {
+    font-size: 15px;
+    margin-right: 10px;
+  }
+
+  
+  
+  
+  
+
+ 
+  
+  
+  

@@ -1,0 +1,103 @@
+/* History.css */
+.ht_container {
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding: 24px 20px;
+    margin-left: -10px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .ht_title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    margin-left: 90px;
+    margin-top: -24px;
+    color: #333;
+    
+  }
+  
+  .ht_noData {
+    text-align: center;
+    color: #666;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  
+  .ht_table {
+    width: 110%;
+    /* border-collapse: collapse; */
+    margin-top: 20px;
+    padding-left: 30px;
+    /* margin-left: 20px; */
+    gap: 10px;
+  }
+  
+  .ht_table th,
+  .ht_table td {
+    padding: 14px 38px!important;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .ht_table th {
+    background-color: #f1f1f1;
+    color: #333;
+    margin-left: 30px;
+    font-size: 14px;
+  }
+  
+  .ht_table td {
+    color: #555;
+    font-size: 13px;
+  }
+  
+  .ht_buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ht_btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ht_deleteBtn {
+    background-color: #c90000;
+    color: white;
+  }
+  
+  .ht_deleteBtn:hover {
+    background-color: #a50000;
+  }
+  
+  .ht_recoverBtn {
+    background-color: #019706;
+    color: white;
+  }
+  
+  .ht_recoverBtn:hover {
+    background-color: #007504;
+  }
+  
+  .ht_table th,
+  .ht_table td {
+    text-align: left;
+    padding: 12px;
+  }
+  
+  .ht_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .ht_table th {
+    background-color: #f2f2f2;
+  }
+  

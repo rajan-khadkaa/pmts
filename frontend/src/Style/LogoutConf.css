@@ -1,0 +1,38 @@
+.swal2-popup {
+    width: 300px !important; /* Adjust the width */
+  }
+  
+  .swal2-confirm {
+    background-color: #0c8fa7 !important; /* Sets the "Yes" button color to blue */
+    color: white !important; /* Sets the "Yes" button text color to white */
+  }
+  
+  /* Customize the "No" button color */
+  .swal2-cancel {
+    background-color: rgb(216, 48, 48) !important; /* Sets the "No" button color to red */
+    color: white !important; /* Sets the "No" button text color to white */
+  }
+  
+  .swal2-title {
+    font-size: 17px !important; /* Adjust the font size */
+    color: rgb(255, 0, 0) !important; /* Adjust the color */
+  }
+  
+  /* Customize the content text */
+  .swal2-content {
+    font-size: 8px !important; /* Adjust the font size */
+  }
+  
+  /* Customize the overlay background */
+  .swal2-container {
+    background-color: rgba(0, 0, 0, 0.7) !important; /* Adjust the 0.5 to change the opacity */
+  }
+
+  .backBtn {
+    /* align-items: right; */
+    background-color: #0c8fa7!important;
+    color: white;
+    float: right;
+    margin-right: 180px;
+    margin-top: 30px;
+  }

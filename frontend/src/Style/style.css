@@ -1,0 +1,377 @@
+
+.empImg {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 4px solid rgb(20, 193, 241);
+}
+
+.PwEnableCheckBox {
+  /* Adjust the size of the default checkbox */
+  transform: scale(0.6)!important; /* Adjust the scaling factor to change the size */
+  border: 1px solid #0c8fa7!important;
+}
+
+.enableDisableTxt {
+  margin-top: 4.5px;
+}
+
+
+/* .pwCheckbox {
+  width: 20px;
+  height: 40px;
+} */
+
+/* .formRadioCircle {
+  
+  margin-right: 5px!important;
+
+}
+
+.formRadioText {
+  margin-bottom: auto!important;
+} */
+
+.formRadioCircle {
+  margin-right: 6px!important;
+  vertical-align: middle; /* Align the radio button to the middle */
+}
+
+.form-check-label {
+  vertical-align: middle; /* Align the label text to the middle */
+  margin-bottom: 9px;
+}
+
+
+
+/* Styles for nav link text and icons - white color */
+/* .nav-link, .nav-link span, .nav-link i {
+  color: rgb(75, 73, 73);
+} */
+
+/* Styles for employee images - sets a fixed size and makes them round */
+
+/* Styles for landing page - sets positioning and size */
+/* .landingpage {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+} */
+
+/* Styles for landing page image - sets background image and size */
+/* .image.landingPage {
+  background: url('Images/lp.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+
+/* Styles for navbar on landing page - sets positioning */
+/* .landingpage_nav {
+  position: relative;
+  z-index: 10;
+} */
+
+/* Styles for header content - sets positioning, color, and alignment */
+.header_content {
+  position: relative;
+  z-index: 10;
+  color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Styles for h1 and p in header content - sets font size */
+.header_content h1, .header_content p {
+  font-size: 2.5rem; /* h1 */
+  margin-bottom: 1rem; /* h1 */
+  font-size: 1.2rem; /* p */
+}
+
+/* Styles for button group - sets alignment */
+.btn_group {
+  display: flex;
+  justify-content: center;
+}
+
+/* Styles for landing middle "LOGIN" page button - sets padding, font size, border, background color, text color, margin, and display type */
+/* .registration_btn {
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background: #f85e69;
+  color: #fff;
+  margin-top: 10px;
+  display: inline-block;
+} */
+
+/* Styles for top landing button - similar to landing page button, but with different padding and font size */
+/* .top_landing_btn {
+  padding: 7px 15px; 
+  font-size: 11px;
+  border: none;
+  border-radius: 6px;
+  background: #f85e69;
+  color: #fff;
+  margin-top: 10px;
+  display: inline-block;
+} */
+
+/* Styles for dropdown color */
+/* Color for dropdown items */
+/* .ddColor
+{
+  color: #fff; 
+} */
+
+/* Styles for dropdown items - sets border and color */
+/* .my-custom-dropdown .dropdown-item {
+  border-bottom: 1px solid #fff; 
+  color: #fff;
+} */
+
+/* .my-custom-dropdown .dropdown-menu { */
+  /* transform: translateX(-7px); 
+  width: 90px !important; 
+  min-width: 0 !important; */
+  /* top: 34px !important;
+  background-color:#008CBA; */
+
+/* } */
+
+/* Styles for last dropdown item - removes border */
+/* .my-custom-dropdown .dropdown-item:last-child {
+  border-bottom: none;
+} */
+
+/* Styles for overlay on landing page image - sets color, size, and opacity */
+/* Adjust the opacity value as needed */
+/* .bg-overlay {
+  background: rgba(0, 0, 0, 0.500); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+} */
+
+/* Styles for dropdown toggle - sets background color, text color, padding, and font size */
+/* .my-custom-dropdown .dropdown-toggle {
+  background-color: #008CBA !important;
+  color: #fff !important;
+  padding: 6px 13px;
+  font-size: 11px;
+  border-radius: 6px;
+} */
+
+/* Styles for dropdown toggle on hover and when dropdown is shown - changes background color */
+/* .my-custom-dropdown .dropdown-toggle:hover,
+.my-custom-dropdown.show .dropdown-toggle {
+  background-color: green !important;
+} */
+
+/* Styles for dropdown item on hover - changes background color and text color */
+/* .my-custom-dropdown .dropdown-item:hover {
+  background-color: white !important;
+  color: green !important;
+} */
+
+/* Styles for dropdown menu - sets background color */
+/* .my-custom-dropdown .dropdown-menu {
+  background-color:green;
+} */
+
+/* Styles for navbar container - sets padding on top */
+/* Adjust this value to move the navbar down i.e of landing page only*/
+/* .navbar-container {
+  padding-top: 8px; 
+} */
+
+.sidebarColor {
+  color: rgb(47, 0, 255);
+}
+
+.iconSize
+{
+  font-size: 14px;
+}
+
+.custom-sidebar {
+  /* background-color:#0c8fa7;  */
+  color: #242222!important;
+  width: 150px!important;
+  
+}
+
+.dashboardBar {  /*use this for changing color of dashboard topic i.e "Employee Management System" */
+  background-color:#025b6b; /* Replace "your-color" with the color of your choice */
+  color: #fff;
+}
+
+/* Adjust this value as needed */
+.custom-container {
+  max-width: 700px !important; 
+  margin-left: 160px!important;
+  margin-top: 40px!important;
+  /* height: 50px !important; */
+  /* margin-right: 75px!important; */
+}
+
+
+/*Style of dashboard's three boxes  */
+.box-style {
+  background-color: #0c8fa7; /* Change this to your preferred shade of blue */
+  color: #ffffff;
+  border-radius: 10px; /* Adjust as needed */
+  height: 150px; /* Make the boxes take the full height of their container */
+  
+}
+
+
+/*Style of border-box of employee's profile or EmployeeDetail.jsx */
+.round-border {
+  border: 1px solid #0c8fa7;
+  border-radius: 10px; /*this property makes the border rounded */
+  margin-top: 6rem;
+  width: 70%;
+  margin-left: 14rem;
+
+} 
+
+.round-border2 {
+  border: 1px solid #0c8fa7;
+  border-radius: 10px; /*this property makes the border rounded */
+  margin-top: 8rem;
+  width: 90%;
+  margin-left: 5rem;
+
+}
+
+
+.no-results {
+  margin-top: 60px;  /* Lower the message */
+  margin-right: 60px;  /* Move it slightly to the left */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-results-icon {
+  margin-right: 20px; /* Adds space between the icon and the text */
+}
+
+
+.round-borderV {
+  border: 1px solid #0c8fa7;
+  border-radius: 10px; /*this property makes the border rounded */
+  margin-top: 10rem;
+  width: 70%;
+  margin-left: 14rem;
+
+} 
+
+
+.custom-margin {
+  margin-left: 7rem;
+  /* margin-right: 7rem; */
+  margin-top: 2rem;
+  margin-right: 7rem;
+  margin-bottom: 2rem;
+}
+
+.custom-marginw {
+  margin-left: 7rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  /* margin-right: 7rem; */
+}
+
+
+.validationAlert {
+  color: red;
+  font-size: 10px;
+  margin-bottom: 3px;
+  margin-top: 2px;
+}
+
+/*horizontal showing of gender radio options*/
+/* .genderSelection > div {
+  display: inline-block;
+  margin-right: 10px;
+} */
+
+
+.form-card {
+  width: 90%;
+  max-width: 800px; /* Adjust this value to the maximum size you want your form to be */
+  /* margin: 0 auto; */
+  /* margin-bottom: 3px; */
+}
+
+.card {
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+  border-radius: .5rem;
+  border: none;
+}
+
+.column-gap {
+  width: 2px;  /* Adjust this value to the width of the gap you want */
+}
+
+
+.reg_card {
+  width: 90%;
+  max-width: 1000px; /* Adjust this value to the maximum size you want your form to be */
+  /* margin: 0 auto; */
+  /* margin-bottom: 3px; */
+}
+
+.reg_card_body {
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important; */
+  border-radius: .5rem;
+  border: none;
+}
+
+.leave-form-datepicker2 {
+  width: 100%;
+  padding: 4px;
+  border-radius: 5px;
+  border: 1px solid #dddddd;
+margin-top: 3px;
+}
+
+.leave-form-datepicker2:focus {
+  border-color: skyblue;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+}
+
+.leaveInfoBtn{
+  background-color: #0c8fa7!important;
+  color: white!important;
+}
+
+/* scrollable table */
+.scrollable-table {
+  display: block;
+  max-height: 300px; /* Adjust the height as needed */
+  overflow-y: auto;
+}
+
+.scrollable-table thead {
+  display: table;
+  width: 100%; /* Make sure the table header is full width */
+  position: sticky;
+  top: 0; /* Stick to the top */
+  z-index: 1; /* Place it above the content */
+}
+
+.scrollable-table tbody {
+  display: table;
+  width: 100%;
+}

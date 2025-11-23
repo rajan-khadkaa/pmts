@@ -1,0 +1,89 @@
+.registration-info-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-top: 150px;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 25px;
+  }
+  
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* margin-top: 15px; */
+  }
+  
+ .checkBTN {
+    padding: 10px;
+    background-color: #1193ca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+
+  .cnclBTN {
+    padding: 10px;
+    background-color: #cd2e2e;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  .checkBTN:hover {
+    background-color: #076a94;
+  }
+
+  .cnclBTN:hover {
+    background-color: rgb(161, 37, 37);
+  }
+
+  .OKbutton {
+    background-color: #ce1212;
+    padding: 10px 30px; /* 10px for top and bottom, 20px for left and right */
+    border-radius: 3px;
+    border: none;
+    color: white;
+  }
+
+  .OKbutton:hover {
+    background-color: rgb(161, 37, 37);
+  }
+
+  .statusText{
+    /* margin-top: 16px!important; */
+    color: #ce1212!important;
+  }
+  
+  .status-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .status-container p {
+    font-weight: bold;
+    color: #007bff;
+  }
+
+  .titleCSS {
+    text-align:center!important;
+  }
+  
+  

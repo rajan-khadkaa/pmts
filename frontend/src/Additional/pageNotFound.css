@@ -1,0 +1,97 @@
+/* PageNotFound.css */
+.notfound {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .notfound-404 {
+    text-align: center;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icon {
+    font-size: 100px;
+    margin-right: 0px;
+    /* color: #008CBA; */
+    /* color: #c81414; */
+    color: rgb(209, 53, 53);
+  }
+  
+  .pgNotFoundHeading {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    /* color: #c81414; */
+    color: rgb(209, 53, 53);
+  }
+  
+  .pgNotFoundText {
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 65px;
+    color: rgb(209, 53, 53);
+  }
+  
+  .buttonPP {
+    font-size: 12px;
+    background: #008CBA;
+    padding: 8px 16px;
+    border-radius: 7px;
+    color: white !important;
+    border: 0px rgb(13, 13, 14) solid;
+    text-decoration: none; /* Remove underline */
+    margin-right: 20px;
+    /* margin-left: 20px; */
+    /* box-shadow: 0px 4px 15px -5px rgba(0, 0, 0, 0.5); */
+
+    /* font-weight: 700; */
+    /* margin-bottom: 45px!important; */
+    /* transition: 0.2s all; */
+  }
+
+  .buttonPP:hover:hover {
+    color: white !important;
+    background-color:  #00698d;
+  } 
+
+
+  .buttonHP {
+    font-size: 12px;
+    padding: 8px 20px;
+    border-radius: 7px;
+    color: white;
+    background-color: #c81414;
+    border: 0px rgb(13, 13, 14) solid;
+    text-decoration: none; /* Remove underline */
+    /* box-shadow: 0px 4px 15px -5px rgba(0, 0, 0, 0.5); */
+
+    /* font-weight: 700; */
+    /* margin-bottom: 45px!important; */
+    /* transition: 0.2s all; */
+  }
+
+  .buttonHP:hover:hover {
+    color: white !important;
+    background-color: #a50202;
+  } 
+  
+  
+  /* .button:hover:hover {
+    color: #6d1b1b;
+    background-color: #c81414;
+  } 
+   */
+  
+
+

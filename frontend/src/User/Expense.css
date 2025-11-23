@@ -1,0 +1,227 @@
+.exp_container {
+    display: flex;
+    gap: 30px;
+    padding-top: 02px;
+    padding-left: 4px;
+}
+
+.validation_error {
+    color: red;
+    margin-bottom: 0px;
+    margin-top: -11px;
+    margin-bottom: 6px;
+    font-size: 11px;
+    /* font-weight: bold; */
+  }
+  
+.exp_form_column {
+    flex: 0 0 450px; /* Fixed width for the form column */
+    background-color: #F3FCFF;
+    /* background-color: #FFFFFF; */
+    /* background-color: #eafaff; */
+    /* background-color: #fff0f0; */
+    border: 4px solid white;
+    border-radius: 15px;
+    padding: 36px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    /* max-height: 510px; */
+    min-height: 510px;
+}
+  
+.exp_heading {
+    text-align: center;
+    /* margin-bottom: 10px;
+    margin-top: -16px; */
+    font-size: 24px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    color: #3f3f3f;
+}
+  
+.exp_total_card {
+    background-color: #f6dcdc;
+    /* background-color: #ffffff; */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    /* padding-top: 10px; */
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #3f3f3f;
+    text-align: center;
+}
+  
+.exp_form_section {
+    margin-top: 16px;
+}
+
+.totalCardMargin{
+    margin-top:12px
+  }
+
+.exp_form_title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .dec_form_description {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+.exp_form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+  
+.exp_input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 6px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    color: #585858;
+}
+
+.exp_input_category {
+    width: 100%;
+    padding: 10px;
+    padding-right: 20px!important;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    color: #585858;
+}
+  
+.exp_textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    min-height: 80px;
+    max-height: 80px;
+    margin-bottom: 6px;
+}
+  
+.exp_submit_btn {
+    background-color: #006da7; /* Red color for the button */
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 14px;
+}
+  
+.exp_submit_btn:hover {
+    background-color: #004c75;; /* Darker red on hover */
+}
+
+
+
+/* expense history css */
+.exp_history_column {
+    flex: 1;
+    background-color: #F3FCFF;
+    /* background-color: #FFFFFF; */
+    /* background-color: #eafaff;  slight blue */
+    /* background-color: #fff0f0;; */   /* slight red */
+    border-radius: 15px;
+    padding: 20px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    border: 4px solid white;
+    /* max-height: 410px; */
+    max-height: 530px;
+  min-width: 576px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.exp_history_title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    padding-bottom: 10px;
+    color: #3f3f3f;
+}
+
+.exp_history_container {
+    overflow-y: auto;
+    max-height: calc(100% - 50px);
+    padding-right: 10px;
+    padding-left: 10px;
+    position: relative;
+}
+
+.exp_history_card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+     /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.exp_card_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.exp_history_card:last-child {
+    margin-bottom: 0;
+}
+
+.exp_card_title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+.exp_card_amount {
+    color: #f44336;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.exp_card_category,
+.exp_card_date {
+    font-size: 12.8px;
+    color: #585858;
+}
+
+.exp_card_description {
+    margin-top: -8px;
+    font-size: 12.8px;
+    color: #585858;
+}
+
+
+.exp_delete_btn {
+    background-color: white;
+    border: solid #db0404 1px;
+    color: #db0404;
+    padding: 3px 6px;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 10px;
+  }
+  
+  .exp_delete_btn:hover {
+    background-color: #f5d5d5;
+  }

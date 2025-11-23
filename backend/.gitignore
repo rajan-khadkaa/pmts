@@ -1,0 +1,10 @@
+node_modules/
+.env
+*.log
+.DS_Store
+
+# Optional if you're using these
+dist/
+build/
+coverage/
+databaseSetup.js

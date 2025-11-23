@@ -1,0 +1,290 @@
+/*
+.home_home-wrapper {
+    background-color: #da4545; /* White or any color of your choice 
+    padding: 20px; /* Space around the content 
+    border-radius: 12px; /* Rounded corners 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow for emphasis 
+  }
+  */
+/* Insights container for increasing and decreasing expenses */
+
+/* Styles for Insights Overview */
+.titleOverview {
+  font-size: 22px;
+  /* margin-left: 280px; */
+  margin-bottom: 32px;
+  margin-top: -6px;
+}
+
+/* Insights container */
+/* .uh_insights-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  width: 100%;
+  margin-bottom: 20px;
+} */
+
+.uh_whole-container {
+  display: flex;
+  flex-direction: row;
+  gap: -10px;
+  /* min-width: 100%; */
+}
+
+.predictionTtl {
+  font-size: 22px;
+  /* font-style: bold; */
+  font-weight: 500;
+  margin-top: -10px;
+  margin-bottom: 8px;
+}
+
+.predCatgAmt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.predictionCtg {
+  font-size: 14px;
+  font-weight: 650;
+  margin-top: -4px;
+  color: #4a4a4a;
+}
+
+.predictionAmt {
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: -5px;
+  margin-bottom: -2px;
+  color: #3c3c3c;
+}
+
+.predictionMsg {
+  font-size: 13px;
+  margin-bottom: -5px;
+}
+
+.uh_predictCard {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px; /* Adjust this to fit beside your current layout */
+}
+
+.prediction-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Space between cards */
+  min-width: 300px;
+  margin-bottom: 16px;
+}
+
+.prediction-card {
+  /* background-color: #f7f7f7; */
+  background-color: #f3fbfe;
+  border: 1.2px solid #bbe9ff;
+
+  padding: 15px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  display: flex;
+  flex-direction: column;
+  gap: 5px; /* Space between prediction text */
+}
+
+/* .prediction-card h6 {
+  font-size: 16px;
+  color: #333;
+}
+
+.prediction-card p {
+  font-size: 14px;
+  color: #555;
+} */
+
+.uh_insights-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* background-color: #f3fcff; */
+  background-color: #daf3ff;
+  border-radius: 8px;
+  padding: 40px 10px;
+  /* padding-top: 10px;
+  padding-right: 10px; */
+  margin-top: -10px;
+  /* padding-bottom: -10px;  */
+  margin-left: -10px;
+  /* gap: 10px; */
+  /* justify-content: center; */
+}
+
+.pieChartContainer {
+  width: 35%; /* Adjust as per your layout needs */
+  height: 300px; /* Set a fixed height */
+  /* margin: 20px 0;  Add some margin to space things out */
+}
+
+/* .cardsGap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Card Headers with Icon and Title */
+.uh_card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Title Styles for Different Expense Types */
+.boxTitle {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.redTitle {
+  /* color: rgb(219, 0, 0); */
+  color: rgb(93, 93, 93);
+}
+
+.greenTitle {
+  /* color: green; */
+  color: rgb(93, 93, 93);
+}
+
+.stableTitle {
+  color: #4a4a4a;
+}
+
+/* Icon Styles for Different Expense Types */
+.redIcon {
+  color: rgb(219, 0, 0);
+  font-size: 20px;
+}
+
+.greenIcon {
+  color: green;
+  font-size: 20px;
+}
+
+.stableIcon {
+  color: #4a4a4a;
+  font-size: 20px;
+}
+
+/* Each insights card */
+.uh_insight-card-inc,
+.uh_insight-card-dec,
+.uh_insight-card-stb {
+  flex: 1;
+  /* background-color: #f4f9ff; */
+  background-color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 10px;
+  min-width: 260px;
+  min-height: 280px;
+  margin-bottom: -4px;
+}
+
+.uh_insight-card-inc {
+  /* background-color: rgb(207, 0, 0); */
+  /* background: (0,0,0,.1); */
+  /* opacity: 0.3; */
+}
+.uh_insight-card-dec {
+  /* background-color: green;
+  opacity: 0.2; */
+}
+.uh_insight-card-stb {
+}
+
+/* List Items */
+.uh_list-item {
+  margin-bottom: 10px;
+}
+
+/* Adjust text sizes for category name and info */
+.uh_category-name-inc,
+.uh_category-name-dec,
+.uh_category-name-stb {
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.uh_category-name-inc {
+  /* color: rgb(219, 0, 0); */
+  color: rgb(93, 93, 93);
+}
+.uh_category-name-dec {
+  /* color: green; */
+  color: rgb(93, 93, 93);
+}
+.uh_category-name-stb {
+  color: #4a4a4a;
+}
+
+.uh_category-info-inc,
+.uh_category-info-dec,
+.uh_category-info-stb {
+  font-size: 12px;
+  margin-top: 0px;
+}
+
+/* Color specific styling */
+.uh_category-info-inc {
+  /* color: #ba0000; */
+  color: #5f5f5f;
+}
+
+.uh_category-info-dec {
+  /* color: #01890a; */
+  color: #5f5f5f;
+}
+
+.uh_category-info-stb {
+  /* color: #4a4a4a; */
+  color: #5f5f5f;
+}
+
+/* Summary Container */
+.uh_summary-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+  margin-left: -10px;
+}
+
+/* Individual summary cards */
+.uh_summary-card {
+  background-color: #daf3ff;
+  /* background-color: #ffffff; */
+  padding: 20px 15px;
+  border-radius: 10px;
+  min-height: 100px;
+  flex: 1;
+}
+
+/* Total Value Styling */
+.uh_total-value {
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: -9px;
+  font-weight: bold;
+}
+
+.totalSummaryTitle {
+  font-size: 13px;
+}
+
+.no-predictions-message {
+  font-size: 16px;
+  align-items: center;
+  margin-top: 10px;
+}

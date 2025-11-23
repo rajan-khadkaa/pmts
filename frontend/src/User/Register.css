@@ -1,0 +1,70 @@
+.validationAlertText {
+    color: red;
+    font-size: 10px;
+    /* align-items: start; */
+    text-align: left;
+    margin-bottom: -12px;
+    margin-top: -5px;
+  }
+  
+
+  .registrationCard{
+    
+    /* background-color: blueviolet; */
+  }
+
+  .userRegTitle{
+    margin-top: -6px;
+    margin-bottom: 12px;
+  }
+
+  .registration_card{
+    /* min-height: 400px;
+    max-height:400px; */
+    /* padding-inline-start: 40px; */
+    /* padding: -10px 60px -10px 60px!important; */
+    width: 32%;
+    background-color: #def4ff;
+    /* background-color: #6dbce3; */
+    border: none;
+    border-radius: 6px;
+    /* color: blue; */
+  }
+
+  .registration_card_body{
+    /* background-color: brown!important;
+    color: aqua!important; */
+    padding-top: 24px;
+    padding-right: 32px;
+    padding-bottom: 8px;
+    padding-left: 32px;
+  }
+
+  .btnRegister{
+    padding: 5px 20px;
+    background-color: #0289c8;
+    margin-right: 20px;
+    color: white;
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .btnRegister:hover{
+    color: white;
+    background-color: #0175aa;
+  }
+
+  .btnRegCancel{
+    padding: 5px 20px;
+    color: white;
+    background-color: rgb(185, 2, 2);
+    width: 45%;
+    margin-bottom: 15px;
+  }
+
+  .btnRegCancel:hover{
+    color: white;
+    background-color: rgb(165, 3, 3)!important;
+  }
+
+  

@@ -1,0 +1,31 @@
+.marginManual {
+    margin-top: 36px;
+  }
+
+  .empReg {
+    /* margin-left: 1rem; */
+    margin-top: 19px!important;
+    /* margin-left: 60px; */
+    padding: 20px 20px 20px 200px;
+  }
+
+  .employee_image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .userRegTblHead{
+    /* padding: 20px 40px!important; */
+  }
+
+
+  .userRegTblHead th{
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+  
+  .userRegTblHead td{
+    font-size: 14px;
+    padding: 12px 40px!important;
+  }

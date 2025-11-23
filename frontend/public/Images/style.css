@@ -1,0 +1,350 @@
+/* General Styles */
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-top: 52px;
+}
+
+h1, h2,h3, h4, h5, h6 {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed; /* Makes the navbar fixed at the top */
+    top: 0; /* Align it to the top of the viewport */
+    left: 0; /* Align it to the left of the viewport */
+    right: 0; /* Align it to the right of the viewport */
+    z-index: 1000; /* Makes sure it's above other elements */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; /* Change the font family */
+    background-color: #eceded!important;
+    /* color: none; */
+}
+
+
+.StartpgBrand {
+    font-size: 22px; /* Increase the font size for the brand name */
+    margin-left: 35px;
+    margin-right: 50px;
+    color: #0c8fa7!important;
+}
+
+.center-nav {
+    margin-left: auto;
+    /* margin-right: 15px; */
+}
+
+.StartpgNavItem {
+    margin-right: 40px; /* Increase the distance between navigation items */
+}
+
+.navbar-nav .nav-link {
+    font-size: 15px; /* Increase the font size for navigation links */
+}
+
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+    /* color: #0c8fa7 !important;  */
+    color: rgb(243, 20, 20) !important;
+}
+
+/* Registration Dropdown Style */
+.StartpgRegToggle {
+    color: #0c8fa7 !important; /* Making sure the color is red */
+}
+
+.StartpgRegToggle:hover, .StartpgRegToggle:focus {
+    color: #0c8fa7 !important; /* Blue color */
+}
+
+.StartpgRegMenu {
+    width: auto;
+}
+
+/* Login Dropdown Style */
+.StartpgLoginBtn {
+    background-color: #0c8fa7; /* Button color to match navbar */
+    /* border: 1px solid rgba(0,0,0,.125);  */
+    color: #ffffff; /* Button text color */
+    margin-left: 5px!important;
+    font-size: 14px; /* Increase the font size for the "Login" text */
+    padding: 5px 10px; /* Increase padding to make the button larger */
+}
+
+.StartpgLoginBtn:hover {
+    background-color: #046776; /* Darker shade of the original color */
+    color: #ffffff !important; /* Keep text color white */
+}
+
+.marginRight{
+    margin-right: 35px;
+}
+
+.RegMarginRight {
+    margin-right: 15px; /* You can adjust the value to your preference */
+}
+
+/* Increase the font size of the dropdown options */
+.dropdown-item {
+    font-size: 14px; /* Adjust the size according to your preference */
+}
+
+/* Decrease the width of the "Login" dropdown box */
+#loginDropdown + .dropdown-menu {
+    width: 100px!important; /* Set to 'auto' to fit the content or specify a fixed width like '150px' */
+}
+
+
+/* Hero Section */
+
+
+.image-container {
+    width: 93%; /*control the width */
+    margin: auto; /* Center the container */
+    /* border-radius: 10px; */
+}
+
+.widthHeight {
+    height: 450px !important; /* Control the height */
+    width: 100% !important; /* Allow the image to fill the container */
+    border-radius: 10px;
+}
+
+.hs_carousel .carousel-item {
+    position: relative;
+}
+
+.hs_carousel img {
+    height: 100vh; /* Set the height of the image to take up the full viewport height */
+    object-fit: cover; /* Ensure that the image covers the entire container */
+}
+
+.hs_overlay {
+    position: absolute; /* Position the overlay absolutely within the carousel item */
+    bottom: 0; /* Align it to the bottom of the carousel item */
+    left: 0; /* Align it to the left of the carousel item */
+    right: 0; /* Align it to the right of the carousel item */
+    padding: 25px 0; /* Add some padding */
+    color: #bb6161; /* Set the text color */
+    background: none; /* Remove any background */
+    border-radius: 10px;
+    /* height: 120px; */
+}
+
+.hs_overlay h1,
+.hs_overlay p {
+    padding: 0 20px; /* Add some horizontal padding to the text */
+}
+
+.hs_overlay {
+    background: rgba(0, 0, 0, 0.5); /* Add a black overlay with 50% transparency */
+    width: 93%; /* Set the width to 80% of the parent container */
+    margin: 0 auto; /* Center the overlay by applying automatic margins to the left and right */
+    position: absolute; /* Absolute positioning to align it properly */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+}
+
+.carousel-indicators li {
+    background-color: #f2eeee; /* Non-active dots */
+}
+
+.carousel-indicators .active {
+    background-color: #f71313; /* Active dot */
+}
+
+/* Services Section */
+.container h2 {
+    font-size: 28px;
+    color: #333333;
+    margin-top: 100px;
+    margin-bottom: 40px!important; /* Space between the title and the service boxes */
+}
+
+.service-section {
+    padding-top: 2px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+
+
+.custom-col {
+    flex: 1; /* Makes the boxes take equal width */
+    border: 1px solid #0c8fa7;
+    padding: 20px 30px; /* Top and bottom padding 15px, left and right padding 10px */
+    margin: 15px 15px;
+    border-radius: 10px;
+    /* other styles */
+}
+
+.container .row {
+    display: flex; /* Enables flexible box layout */
+    flex-wrap: wrap; /* Allows the boxes to wrap to the next line if they don’t fit on one line */
+}
+
+/* About Section */
+.about-section {
+    /* padding: 20px 0; */
+    margin-top: 10px;
+    padding-bottom: 30px;
+    padding-top: 2px;
+}
+
+.about-title {
+    font-size: 28px;
+    color: #333333;
+     /* Adjustable margin for top and bottom */
+    /* margin-top: 100px!important; */
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between images */
+}
+
+.about-image {
+    width: 200px; /* You can adjust the width as needed */
+    border-radius: 10px; /* Rounded edges */
+}
+
+.about-description {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.5;
+    max-width: 600px;
+    margin: 20px auto; /* Centered with space above and below */
+}
+
+/* Testimonials Section */
+.testimonial-title {
+    margin: 10px 0; /* Adjustable margin for the title */
+    /* margin-bottom: 50px; */
+}
+
+.testimonial-client {
+    width: 30%; /* Custom width */
+    display: inline-block;
+    margin: 40px 15px; /* Space between each client section */
+}
+
+.client-image {
+    width: 100px; /* Size of the image */
+    height: 100px; /* Size of the image */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Keep the aspect ratio */
+}
+
+.testimonial-client h3 {
+    font-size: 20px;
+    color: #0bcedc;
+    margin-top: 20px;
+}
+
+.testimonial-client p {
+    margin-top: 10px;
+    max-width: 350px;
+    font-size: 12px;
+    font-style: italic;
+    color: #555555;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 2px 0;
+    margin-top: 10px;
+}
+
+/* .contact-section h2 {
+    margin-bottom: 10px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+} */
+
+.containerS {
+    margin-top: 10px!important;
+}
+
+.contact-details p {
+    font-size: 12px;
+    color: #333333;
+    margin: 15px 0;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0c8fa7;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #066070;
+}
+
+.contCss {
+    padding-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta {
+    /* background-color: #0c8fa7; You can change the color */
+    color: black!important;
+}
+
+.cta a {
+    margin-top: 20px;
+}
+
+.startNowBtn{
+    color: white;
+    background-color: #de4624;
+    padding: 6px 10px;
+    font-size: 14px;
+}
+
+.startNowBtn:hover{
+    background-color: #931f05!important;
+    color: white;
+}
+
+.getStartedCAS {
+    color: black!important;
+}
+
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+
+/* .bgColor {
+    color: rgb(244, 244, 244) !important;
+    background-color: #f6f6f6;
+} */
+
+/* .belowCss {
+    background-color: #0c8fa7;
+    color: white;
+} */
+
+
+
