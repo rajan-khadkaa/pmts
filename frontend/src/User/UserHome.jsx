@@ -60,27 +60,6 @@ function UserHome() {
       }
     };
 
-    // const fetchPredictions = async () => {
-    //   try {
-    //     const response = await axios.post(
-    //       `http://localhost:4000/expensePredict?userId=${userId}`,
-    //       {
-    //         categories: [
-    //           "Rent",
-    //           "Institutional",
-    //           "Groceries",
-    //           "Utilities",
-    //           "Transportation",
-    //           "Miscellaneous",
-    //           "Entertainment",
-    //         ],
-    //       }
-    //     );
-    //     setPredictions(response.data); // Store prediction data
-    //   } catch (error) {
-    //     console.error("Error fetching predictions:", error);
-    //   }
-    // };
     const fetchPredictions = async () => {
       try {
         const response = await axios.post(
@@ -112,26 +91,9 @@ function UserHome() {
     }
   }, [userId]);
 
-  // Format data for each layer of the donut chart
-  // const formatPieData = (data, type) => {
-  //   return data.map((item) => ({
-  //     id: `${type}: ${item.category}`,
-  //     label: `${item.category}`,
-  //     value: item.difference || 1,
-  //   }));
-  // };
-
   const formatPieData = (data, type) => {
     return data.map((item) => ({
       id: `${type}: ${item.category}`,
-      // label: `${item.category} (By ` + `${item.times})`,
-      // label:
-      //   `${item.category}` +
-      //   `${
-      //     item.category === "Rent" || "Utilities"
-      //       ? (item.times = 0)
-      //       : item.times
-      //   }`,
       label:
         `${item.category}` +
         ` ${
@@ -149,110 +111,6 @@ function UserHome() {
     }));
   };
 
-  // const LayeredPieChart = () => {
-  //   // Data for each layer
-  //   const increasingData = formatPieData(insights.increasing, "I");
-  //   const decreasingData = formatPieData(insights.decreasing, "D");
-  //   const stableData = formatPieData(insights.stable, "S");
-
-  //   return (
-  //     // <div className="pieChartContainer">
-  //     <div>
-  //       {/* <h6>Expenses Overview (Layered)</h6> */}
-  //       <div style={{ height: "350px", width: "700px" }}>
-  //         <ResponsivePie
-  //           data={[...increasingData, ...decreasingData, ...stableData]} // Combine all three data sets
-  //           margin={{ top: 30, right: 220, bottom: 40, left: 10 }}
-  //           innerRadius={0.5}
-  //           padAngle={0.7}
-  //           isInteractive={true}
-  //           // isInteractive={false}
-  //           activeInnerRadiusOffset={2}
-  //           activeOuterRadiusOffset={6}
-  //           animate={true}
-  //           // animate={false}
-  //           cornerRadius={3}
-  //           colors={({ id }) => {
-  //             if (id.startsWith("I")) return "#f4696b"; // Dark red for Increasing
-  //             if (id.startsWith("D")) return "#6ed3c3"; // Dark green for Decreasing
-  //             return "#70c1f9"; // Sky-blue for Stable
-  //           }}
-  //           borderWidth={1}
-  //           borderColor={{
-  //             from: "color",
-  //             modifiers: [["darker", 0.2]],
-  //           }}
-  //           //for lines of labels
-  //           arcLinkLabelsSkipAngle={1}
-  //           arcLinkLabelsOffset={0} // Increase space between pie and labels
-  //           // arcLinkLabelsDiagonalLength={18} // Increase diagonal length
-  //           // arcLinkLabelsStraightLength={30} // Increase straight length to spread labels
-  //           arcLinkLabelsDiagonalLength={10}
-  //           arcLinkLabelsStraightLength={15}
-  //           arcLinkLabelsTextColor="#333333"
-  //           arcLinkLabelsThickness={2}
-  //           arcLinkLabelsColor={{ from: "color" }}
-  //           arcLabelsSkipAngle={5}
-  //           arcLabelsTextColor={{
-  //             from: "color",
-  //             modifiers: [["darker", 2]],
-  //           }}
-  //           legends={[
-  //             {
-  //               anchor: "right", // Legend on the right side
-  //               direction: "column", // Display in a vertical column
-  //               justify: false,
-  //               translateX: 120, // Adjust distance from the chart
-  //               translateY: 0,
-  //               itemsSpacing: 8, // Space between legend items
-  //               itemWidth: 100,
-  //               itemHeight: 20,
-  //               itemTextColor: "#999",
-  //               itemDirection: "left-to-right",
-  //               itemOpacity: 1,
-  //               symbolSize: 14,
-  //               symbolShape: "circle",
-  //               effects: [
-  //                 {
-  //                   on: "hover",
-  //                   style: {
-  //                     itemTextColor: "#52707b",
-  //                   },
-  //                 },
-  //               ],
-  //             },
-  //           ]}
-  //         />
-  //       </div>
-  //     </div>
-  //   );
-  // };
-
-  // New Prediction Card Component
-  // const PredictionCard = () => {
-  //   return (
-  //     <div className="prediction-container">
-  //       <div className="predictionTtl">Predictions</div>
-  //       {predictions.map(
-  //         (prediction, index) =>
-  //           // Only render the prediction card if prediction is not 0
-  //           prediction.prediction !== 0 && (
-  //             <div className="prediction-card" key={index}>
-  //               <div className="predCatgAmt">
-  //                 <h6 className="predictionCtg">{prediction.category}</h6>
-  //                 <p className="predictionAmt">
-  //                   {prediction.prediction === 0
-  //                     ? "No amount"
-  //                     : `Rs. ${prediction.prediction.toFixed(0)}`}
-  //                 </p>
-  //               </div>
-  //               <p className="predictionMsg">{prediction.message}</p>
-  //             </div>
-  //           )
-  //       )}
-  //     </div>
-  //   );
-  // };
   const LayeredPieChart = () => {
     // Data for each layer
     const increasingData = formatPieData(insights.increasing, "I");
@@ -383,12 +241,6 @@ function UserHome() {
         </div>
 
         <div className="uh_summary-container">
-          {/* <div className="uh_summary-card">
-            <h6 className="totalSummaryTitle">Savings (Previous Month)</h6>
-            <div className="uh_total-value">
-              <p>Rs. {savings.amount || 0}</p>
-            </div>
-          </div> */}
           <div className="uh_summary-card">
             <h6 className="totalSummaryTitle">Total Income (Current Month)</h6>
             <div className="uh_total-value">
